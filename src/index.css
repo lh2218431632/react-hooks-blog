@@ -3,6 +3,23 @@
 
 
 
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+    background-color: var(--Hy-color);
+    transition: all 0.5s;
+}
+
+::-webkit-scrollbar-track {
+    /* border-radius: 7px; */
+    background-color: #d3dce6;
+}
+
+
 
 *{
     margin: 0px;
@@ -13,7 +30,7 @@
 
 body {
     color: #333;
-    background-color: var(--Yuexing-body-bg);
+    background-color: var(--Hy-body-bg);
     transition: all 0.5s;
 }
 
